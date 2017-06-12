@@ -1,6 +1,6 @@
 #
 # Copyright (C) 2017 The Android Open Source Project
-#
+#/
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
@@ -76,3 +76,6 @@ BOARD_SUPPRESS_SECURE_ERASE := true
 RECOVERY_SDCARD_ON_DATA := true
 TW_IGNORE_MISC_WIPE_DATA := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
+
+# Multirom
+include $(LOCAL_PATH)/multirom/multirom.mk
